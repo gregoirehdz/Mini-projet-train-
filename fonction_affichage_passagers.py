@@ -1,4 +1,4 @@
-# Afficher la liste des passagers d’un train donné
+# Afficher la liste des passagers d’un train donné.
 
 trains = {
     'TUN-PAR': {'places_total': 5, 'places_restantes': 5, 'passagers': set(["Kenan", "Gregoire"])},
