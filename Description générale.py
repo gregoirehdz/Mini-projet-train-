@@ -1,9 +1,5 @@
-trains = {"TUN-PAR": {"places_total": 100,"places_restantes": 100,"passagers": set()},
-          "LYO-MRS": {"places_total": 80,"places_restantes": 80,"passagers": set()}}
-plz github
-
-train 1 
-
-train 2
-
-train 3 
+# Structure de départ
+trains = {
+    'TUN-PAR': {'places_total': 5, 'places_restantes': 5, 'passagers': set()},
+    'TUN-ROM': {'places_total': 3, 'places_restantes': 3, 'passagers': set()},
+    'TUN-MAD': {'places_total': 4, 'places_restantes': 4, 'passagers': set()},}
