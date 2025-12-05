@@ -95,7 +95,7 @@ def afficher_trains_complets(trains):
         print("Aucun train n'est complet.")
     else:
         for t in complets:
-            print("🚆", t)
+            print(t)
 
 
 #  Menu principal

@@ -38,15 +38,7 @@ def reserver_place(trains):
     # Réservation
     info['passagers'].add(nom)
     info['places_restantes'] -= 1
-
-    # BONUS : génération de ticket (tuple)
-    numero_place = info['places_total'] - info['places_restantes']
-    ticket = (nom, trajet, numero_place)
-
-    print(f"Réservation confirmée pour {nom} sur {trajet}.")
-    print(f"Ticket : {ticket}")
-
-
+    
 # 3 Annuler une réservation
 def annuler_reservation(trains):
     nom = input("Nom du passager : ").strip()
